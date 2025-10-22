@@ -3,10 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>learnprogramingwithark</title>
+      <style>
+    body {
+      font-family: "Cairo", sans-serif;
+      background-color: #f5f7fa;
+      margin: 0;
+      padding: 0;
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0078ff, #00b4d8);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      opacity: 0.9;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    section h2 {
+      color: #0078ff;
+    }
+
+    .courses, .testimonials {
+      margin-top: 50px;
+    }
+
+    .course-card {
+      background: #f0f8ff;
+      padding: 15px;
+      border-radius: 10px;
+      margin: 15px 0;
+      border: 1px solid #d0eaff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0078ff;
+      color: white;
+      margin-top: 50px;
+    }
+  </style>
 </head>
 <body>
-    <h1 style="text-align: center;">ماذا بعد</h1>
-    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">ARK</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+ <header>
+    <h1>تعلم البرمجة مع م عبدالله خطوة بخطوة</h1>
+    <p>ابدأ رحلتك في عالم البرمجة من الصفر إلى الاحتراف</p>
+  </header>
+
+  <section>
+    <h2>عن الموقع</h2>
+    <p>
+      موقع "تعلم البرمجة" هو منصّة تعليمية تهدف إلى مساعدة المبتدئين والمحترفين على تطوير مهاراتهم البرمجية.
+      نقدم دروسًا مبسطة، تمارين عملية، ومشاريع واقعية في لغات مثل Python وJavaScript وC++ وغيرها.
+    </p>
+
+    <div class="courses">
+      <h2>الدورات المتاحة</h2>
+      <div class="course-card">
+        <h3>أساسيات البرمجة بلغة Python</h3>
+        <p>ابدأ من الصفر وتعلّم كيفية كتابة الأكواد، التعامل مع البيانات، وبناء مشاريع بسيطة.</p>
+      </div>
+      <div class="course-card">
+        <h3>تطوير مواقع الويب بـ HTML و CSS و JavaScript</h3>
+        <p>تعلّم كيف تنشئ موقعًا احترافيًا من الصفر باستخدام التقنيات الأساسية للويب.</p>
+      </div>
+      <div class="course-card">
+        <h3>تحليل البيانات بلغة Python</h3>
+        <p>استكشف عالم تحليل البيانات باستخدام مكتبات مثل pandas وmatplotlib.</p>
+      </div>
+    </div>
+
+    <div class="testimonials">
+      <h2>آراء الطلاب</h2>
+      <p>💬 "تعلمت البرمجة بسهولة وبأسلوب ممتع، شكراً للفريق الرائع!" — أحمد</p>
+      <p>💬 "الدروس منظمة والمشاريع ساعدتني أبدأ عملي كمطور حر." — سارة</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 موقع تعلم البرمجة | جميع الحقوق محفوظة</p>
+  </footer>
+
+  
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+ integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> 
 </body>
 </html>
